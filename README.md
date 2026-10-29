@@ -1,8 +1,9 @@
 # Customer Churn Analysis
 
-A Python, Pandas, SQLite, SQL, and visualisation project that combines customer, subscription, and support records to explore churn patterns, recurring charges at risk, and the relationship between support escalations and churn.
+A customer churn analysis that combines customer, subscription and support records to explore churn and retention patterns, differences by plan and state, recurring charges at risk, and support escalations. Python, Pandas, SQL and visualisations are used to prepare data, calculate business metrics and investigate potential churn indicators.
 
 ## Architecture Overview
+
 ```mermaid
 flowchart TD
     A[(SQLite source database)] --> B[Load customer, subscription, support tables]
