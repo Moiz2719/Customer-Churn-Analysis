@@ -2,8 +2,7 @@
 
 A Python, Pandas, SQLite, SQL, and visualisation project that combines customer, subscription, and support records to explore churn patterns, recurring charges at risk, and the relationship between support escalations and churn.
 
-## Architecture overview
-
+## Architecture Overview
 ```mermaid
 flowchart TD
     A[(SQLite source database)] --> B[Load customer, subscription, support tables]
@@ -53,7 +52,7 @@ The scripts write generated files under `outputs/`, which is excluded from Git.
 
 ## Privacy note
 
-The source tables shown in the notebook contain customer IDs, names, dates of birth, and support comments. Do not commit the source database or customer-level extracts to a public repository. Only share data you are authorised to publish, preferably anonymised or synthetic.
+A customer churn analysis that combines customer, subscription and support records to explore churn and retention patterns, differences by plan and state, recurring charges at risk, and support escalations. Python, Pandas, SQL and visualisations are used to prepare data, calculate business metrics and investigate potential churn indicators.
 
 ## Data context
 
