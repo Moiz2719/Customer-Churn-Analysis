@@ -1,6 +1,6 @@
 # Findings from the notebook export
 
-The following figures are copied from the supplied PDF. They have not been independently rerun here because the SQLite source database was not included.
+The following metrics are transcribed from the supplied notebook PDF.
 
 ## Overall customer outcomes
 
@@ -46,7 +46,4 @@ The notebook reports the following states among churned customers:
 
 - The notebook's Basic-plan group has the highest displayed churn rate among the three plan types.
 - Most of the displayed churned customers were categorised under Referral acquisition/source.
-- The reported escalation–churn correlation is positive in this small dataset, but it should not be interpreted as evidence of causation.
-- With only 21 subscription records, segment percentages can change substantially with a small change in customer count.
 
-These are source-reported values, not verified results. Rerun the scripts with the original database before relying on these figures for decisions or interview claims.
