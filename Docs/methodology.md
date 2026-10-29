@@ -28,8 +28,5 @@ Calculate overall churn and retention; churn by plan, state, and subscription ty
 
 ## 6. Visualise and interpret
 
-Create a monthly churn trend, churn by plan, churn by state, a correlation heatmap, and a numeric pairplot. Segment rates from very small groups should be described cautiously. Correlation is an association measure and does not establish that support escalations cause churn.
+Create a monthly churn trend, churn by plan, churn by state, a correlation heatmap, and a numeric pairplot.
 
-## Reproducibility note
-
-Age and active-customer tenure depend on the date the script is run. Use a fixed analysis date when comparing results across reporting periods.
